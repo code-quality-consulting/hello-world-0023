@@ -5,12 +5,8 @@ const assert = require("assert");
 
 // https://nodejs.org/docs/latest-v8.x/api/assert.html
 
-function makeGreeting(name) {
-    "use strict";
-    if (name) {
-        return "Hello " + name + "!";
-    }
-    return "Hello world!";
+function makeGreeting(name = "world") {
+    return "Hello " + name + "!";
 }
 
 // https://nodejs.org/docs/latest-v8.x/api/assert.html#assert_assert_strictequal_actual_expected_message

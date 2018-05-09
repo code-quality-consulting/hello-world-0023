@@ -13,4 +13,5 @@ function makeGreeting() {
 // https://nodejs.org/docs/latest-v8.x/api/assert.html#assert_assert_strictequal_actual_expected_message
 
 assert.strictEqual(makeGreeting(), "Hello world!");
+assert.strictEqual(makeGreeting(), "Hello Mike!");
 console.log("All tests have passed.");

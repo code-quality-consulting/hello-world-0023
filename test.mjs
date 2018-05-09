@@ -1,7 +1,7 @@
 /*jslint
     node
 */
-const assert = require("assert");
+import assert from "assert";
 
 // https://nodejs.org/docs/latest-v8.x/api/assert.html
 

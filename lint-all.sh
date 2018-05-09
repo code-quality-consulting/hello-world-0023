@@ -1,4 +1,4 @@
 node --experimental-modules ./utilities/lint.mjs \
 ./greeting.mjs \
-./test.mjs \
+./tests/test.mjs \
 ./dependencies/jslint.js
